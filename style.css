@@ -1,0 +1,234 @@
+/* === Global Styles === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #3c3939;
+    color: #f3eded;
+}
+
+/* === Main Wrapper === */
+.main-wrapper {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* === Navbar / Header === */
+.header-container {
+    width: 100%;
+    background-color: #302b2b;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+/* === Logo Styles === */
+.logo-box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo-icon {
+    background: #d4e5ff;
+    color: #52637d;
+    font-size: 24px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #d4e5ff;
+}
+
+.logo-text-accent {
+    color: #f8f8fd;
+}
+
+/* === Navigation === */
+.nav-links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 15px;
+    font-weight: 500;
+    color: #e2e4e9;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: #eeeef5;
+}
+
+.btn-login {
+    background-color: #6366f1;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.btn-login:hover {
+    background-color: #24242c;
+    color: white;
+}
+
+/* === Hero Section === */
+.hero-container {
+    width: 100%;
+    padding: 80px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right bottom, #ffffff, #f0f4ff);
+    flex: 1;
+}
+
+.hero-text-box {
+    width: 50%;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 35px;
+}
+
+/* === Upload Section === */
+.hero-upload-box {
+    width: 40%;
+    background-color: #ffffff;
+    border: 2px dashed #cbd5e1;
+    border-radius: 12px;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.hero-upload-box:hover {
+    border-color: #6366f1;
+}
+
+.upload-icon-div {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.upload-text-main {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
+.upload-text-sub {
+    font-size: 14px;
+    color: #94a3b8;
+    margin-bottom: 25px;
+}
+
+.upload-btn {
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* === Features Section === */
+.features-container {
+    width: 100%;
+    padding: 60px 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: #ffffff;
+}
+
+.feature-card {
+    width: 30%;
+    padding: 30px;
+    background-color: #f8fafc;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.feature-icon-div {
+    width: 50px;
+    height: 50px;
+    background-color: #e0e7ff;
+    color: #4f46e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.feature-desc {
+    font-size: 15px;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+/* === Footer === */
+.footer-container {
+    width: 100%;
+    padding: 25px 50px;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: #94a3b8;
+    font-size: 14px;
+}
